@@ -26,9 +26,9 @@ func  main(){
 
 	fmt.Print("\tPercentage =")
 	fmt.Printf("\t",percentage)
-	fmt.Print("%")
+	fmt.Print("%\n")
 
 
 
 	// fmt.Println("Hello GoLang")
-}
+}# MyGOlang
