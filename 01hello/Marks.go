@@ -7,6 +7,7 @@ of 50.
 iii. Exam report will include class (failed, second, first, distinction) of the student
 which student will get based on percentage. If percentage is
 
+
 A. Less than 35, class should be failed (No need to calculate percentage)
 B. Less than 60 but greater than or equals 35, class should be second.
 C. Less than 70 but greater than or equals 60, class should be first.
@@ -37,7 +38,7 @@ func main() {
 	fmt.Print("\n")
 
 	fmt.Print("\tPercentage =")
-	fmt.Printf("\t", percentage)
+	fmt.Printf("\t%0.2f", percentage)
 	fmt.Print("%\n")
 
 	// fmt.Println("Hello GoLang")
