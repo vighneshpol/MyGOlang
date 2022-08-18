@@ -1,4 +1,4 @@
-/*write
+/* Write a program to check whether number is positive or negative.
  */
 
 package main

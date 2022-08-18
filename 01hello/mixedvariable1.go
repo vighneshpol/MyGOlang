@@ -1,3 +1,5 @@
+/*Write a program to frind out type of variable name*/
+
 package main
 
 import "fmt"
