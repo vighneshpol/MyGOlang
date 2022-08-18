@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func mai() {
+func main() {
 	var a, b, c = 3, 4.0, "foo"
 
 	fmt.Println(a)

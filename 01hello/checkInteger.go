@@ -5,7 +5,7 @@ package main
 
 import "fmt"
 
-func main1() {
+func main() {
 
 	var checkInteger int
 
