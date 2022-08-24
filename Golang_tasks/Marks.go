@@ -31,7 +31,7 @@ func main() {
 
 	total = eng + phy + chem + math + com
 	percentage = (total / 500.0) * 100.0
-	fmt.Print(name)
+	fmt.Print("\t", name)
 
 	fmt.Print("\tTotal Marks =")
 	fmt.Printf("\t%0.2f", total)
@@ -41,5 +41,21 @@ func main() {
 	fmt.Printf("\t%0.2f", percentage)
 	fmt.Print("%\n")
 
+	if percentage >= 90 {
+		print("Grade: A")
+		fmt.Print("\n")
+	} else if percentage >= 80 && percentage < 90 {
+		print("Grade: B")
+		fmt.Print("\n")
+	} else if percentage >= 70 && percentage < 80 {
+		print("Grade: C")
+		fmt.Print("\n")
+	} else if percentage >= 60 && percentage < 70 {
+		print("Grade: D")
+		fmt.Print("\n")
+	} else {
+		print("Grade: F")
+		fmt.Print("\n")
+	}
 	// fmt.Println("Hello GoLang")
 }
