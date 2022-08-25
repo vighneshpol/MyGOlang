@@ -22,6 +22,6 @@ func main() {
 	} else if number3 > number1 && number3 > number2 {
 		fmt.Println(number3, " is large tha  ", number1, " and ", number2)
 	} else {
-		fmt.Println("All of ")
+		fmt.Println("All of them are equal")
 	}
 }

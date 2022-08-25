@@ -8,7 +8,7 @@ iii. Exam report will include class (failed, second, first, distinction) of the 
 which student will get based on percentage. If percentage is
 
 
-A. Less than 35, class should be failed (No need to calculate percentage)
+A. Less than 35, class should be failed
 B. Less than 60 but greater than or equals 35, class should be second.
 C. Less than 70 but greater than or equals 60, class should be first.
 D. An equals or above 70, class should be distinction.*/
@@ -18,7 +18,7 @@ package main
 import "fmt"
 
 func main() {
-	var eng, phy, chem, math, com float32
+	var Maths, Science, SS, English float32
 	var total, percentage float32
 	var name string
 
@@ -27,10 +27,10 @@ func main() {
 	// fmt.Scan("\n",name)
 	fmt.Println("Name of student")
 	fmt.Scanln(&name)
-	fmt.Scan(&eng, &phy, &chem, &math, &com)
+	fmt.Scan(&Maths, &Science, &SS, &English)
 
-	total = eng + phy + chem + math + com
-	percentage = (total / 500.0) * 100.0
+	total = Maths + Science + SS + English
+	percentage = (total / 400.0) * 100.0
 	fmt.Print("\t", name)
 
 	fmt.Print("\tTotal Marks =")
@@ -41,18 +41,19 @@ func main() {
 	fmt.Printf("\t%0.2f", percentage)
 	fmt.Print("%\n")
 
-	if percentage >= 90 {
-		print("Grade: A")
+	if percentage < 35 {
+		print("Fail")
 		fmt.Print("\n")
-	} else if percentage >= 80 && percentage < 90 {
-		print("Grade: B")
-		fmt.Print("\n")
-	} else if percentage >= 70 && percentage < 80 {
-		print("Grade: C")
+	} else if percentage >= 35 && percentage < 60 {
+		print("Second Class")
 		fmt.Print("\n")
 	} else if percentage >= 60 && percentage < 70 {
-		print("Grade: D")
+		print("First Class")
 		fmt.Print("\n")
+	} else if percentage >= 70 {
+		print("First Class with Distinction")
+		fmt.Print("\n")
+
 	} else {
 		print("Grade: F")
 		fmt.Print("\n")
