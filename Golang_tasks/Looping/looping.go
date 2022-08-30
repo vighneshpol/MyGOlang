@@ -13,5 +13,5 @@ func main() {
 	for i := 1; i <= N; i++ { // assigning 1 to i
 		sum += i // sum = sum + i
 	}
-	fmt.Print("Sum of 1 to", N, ":-", sum, "\n")
+	fmt.Print("Sum of 1 to  ", N, "  :  ", sum, "\n")
 }
