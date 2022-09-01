@@ -1,3 +1,8 @@
+/*
+Write a program to find different aggregates (min, max, mean and median) value in
+existing list of numbers. [5, 10, 15, 12, 500, 950, 0, 0.5, 6.75, 840, 1500, 7, 84, 15000]
+*/
+
 package main
 
 import (
