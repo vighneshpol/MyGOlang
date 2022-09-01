@@ -1,3 +1,3 @@
-# MyGOlang
-please refer Assignments branch for the tasks
+# MyGOlang Repo
+Please refer Assignments branch for the tasks
 
