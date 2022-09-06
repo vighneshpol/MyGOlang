@@ -1,5 +1,8 @@
-// Golang program to
-// print the Fibonacci series using recursion
+/*Write a program to generate the Fibonacci sequence starting from 0. The function accepts
+any number as an argument (length of the output sequence) and generates the list of
+Fibonacci sequence.
+
+Fibonacci series using recursion*/
 
 package main
 
