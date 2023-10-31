@@ -17,7 +17,7 @@ func main() {
 	for i = 0; i < Arrsize; i++ {
 		fmt.Scan(&Arr[i])
 	}
-	fmt.Print("\nTriple of even multiple number is = ")
+	fmt.Print("\nTriple of even multiple number are= ")
 	for i = 0; i < Arrsize; i++ {
 		if Arr[i]%2 == 0 {
 			fmt.Print(Arr[i]*Arr[i]*Arr[i], "  ")
