@@ -13,4 +13,5 @@ func main() {
 	fmt.Printf("a is of type %T\n", a)
 	fmt.Printf("b is of type %T\n", b)
 	fmt.Printf("c is of type %T\n", c)
+	fmt.Printf("What is abc %T\n",a)
 }

@@ -1,6 +1,6 @@
 // // Go program to illustrate how to
 // // count the elements of the string
-package main
+package String_Manipulation
 
 import (
 	"fmt"
