@@ -26,6 +26,7 @@ func main(){
 	    if isPalindrome(num){
 	        fmt.Printf("%d is a Palindrome",num)
 	    }else{
+			//printing if it is not palindrome
 	        fmt.Printf("%d is not a palindrome",num)
 	    }
 	} 
